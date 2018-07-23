@@ -27,7 +27,7 @@ void loop() {
   {
     gsm.println("AT+CMGF=1");
     delay(1000);
-    gsm.println("AT+CMGS=\"+91----------\"\r"); //replace x by the number required
+    gsm.println("AT+CMGS=\"+91----------\"\r"); //replace '-' by the number required
     delay(1000);
     gsm.println("Water level is high.");
     delay(100);
